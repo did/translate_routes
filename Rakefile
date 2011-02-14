@@ -8,7 +8,7 @@ task :default => :test
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "translate_routes"
+    gem.name = "translate_routes_rails_2_3"
     gem.summary = %Q{Translate your Rails routes in a simple manner}
     gem.description = %Q{Translates the Rails routes of your application into the languages defined in your locale files}
     gem.email = "raul@murciano.net"

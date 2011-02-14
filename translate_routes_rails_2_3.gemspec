@@ -4,8 +4,8 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{translate_routes}
-  s.version = ""
+  s.name = %q{translate_routes_rails_2_3}
+  s.version = "3.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Raul Murciano"]
@@ -16,14 +16,15 @@ Gem::Specification.new do |s|
     "README.markdown"
   ]
   s.files = [
-    "lib/translate_routes.rb",
+    "lib/route_translator.rb",
+     "lib/translate_routes.rb",
      "lib/translate_routes_test_helper.rb"
   ]
   s.homepage = %q{http://github.com/raul/translate_routes}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.4.2}
-  s.summary = %q{Translate your Rails routes in a simple manner (Rails2.3 branch)}
+  s.summary = %q{Translate your Rails routes in a simple manner}
   s.test_files = [
     "test/translate_routes_test.rb"
   ]
